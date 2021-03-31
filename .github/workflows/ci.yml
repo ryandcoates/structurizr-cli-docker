@@ -53,7 +53,7 @@ jobs:
           labels: |
             ${{ steps.docker_meta.outputs.labels }}
             org.opencontainers.image.description=structurizr-cli docker container
-            org.opencontainers.image.authors=Maksim Milykh aidmax@mail.ru
+            org.opencontainers.image.authors=Ryan Coates ryan.coates@gmail.com
           build-args: |
             STRUCTURIZR_VERSION=${{ steps.vars.outputs.structurizr_version }}
 
@@ -91,7 +91,7 @@ jobs:
           labels: |
             ${{ steps.docker_meta.outputs.labels }}
             org.opencontainers.image.description=structurizr-cli docker container
-            org.opencontainers.image.authors=Maksim Milykh
+            org.opencontainers.image.authors=Ryan Coates
           build-args: |
             STRUCTURIZR_VERSION=${{ steps.vars.outputs.structurizr_version }}
 
