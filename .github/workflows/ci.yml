@@ -62,7 +62,6 @@ jobs:
         with:
           args: >-
             --cache-dir /var/lib/trivy
-            --no-progress
             --exit-code 1
             --severity MEDIUM,HIGH,CRITICAL
             ghcr.io/${{ github.repository }}:${{ steps.vars.outputs.sha_short }}
